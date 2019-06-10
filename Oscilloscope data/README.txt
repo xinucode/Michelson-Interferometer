@@ -44,8 +44,6 @@ difference frequency of acoustic source and pzt. The
 math of this is actually pretty simple and similar to 
 “beating”
 
-Possible Changes:
-
 ---------------------------------------------
 
 4-8-19:
@@ -57,10 +55,8 @@ named in the same manner as for 4-4-19 data.
 
 Results: The only changes are to the frequency of the
 FFT at 0 Hz. This is due to the nature of how the FFT 
-is calculated. Otherwise, there is no aparent changes.
+is calculated. Otherwise, there is no apparent changes.
 More details in Final Report
-
-Possible changes:
 
 ---------------------------------------------
 
@@ -70,21 +66,18 @@ without any audio frequencies. We also tested with and
 without the PZT. The parameters for each column are as
 follows:
 
+----------driving_voltage-driving_frequency-audio_frequency-audio_strength
 gentlewzt:
-noisewzt:
+noisewzt: 5V              1Hz               0               0
 quietwpzt:
 softwzt:
-noise:
-hcope:
-icope:
-kcope:
-pcope:
-tcope:
-wcope:
-
-Results: 
-
-Possible changes:
+noise:    0               0                 0               0
+hcope:    5V              1 Hz              100 Hz 
+icope:    5V              1 Hz              100 Hz 
+kcope:    5V              1 Hz              100 Hz 
+pcope:    5V              1 Hz              900 Hz   
+tcope:    5V              1 Hz              900 Hz   
+wcope:    5V              1 Hz              900 Hz 
 
 ---------------------------------------------
 
@@ -99,7 +92,6 @@ function generator are 1 Hz and 5 V.
 
 Results: In the final report
 
-Possible changes:
 
 
 
